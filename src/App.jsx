@@ -14,7 +14,15 @@ function App() {
               <li>Home</li>
               <li>About Me</li>
               <li>Work</li>
-              <li>Contact me</li>
+              <li>
+                <table>
+                <tr>
+                  <td>
+                    <a class="number" href="tel:+447821285093">Contact me</a>
+                  </td>
+                </tr>
+              </table>
+              </li>
             </ul>
           </div>
         </header>
@@ -23,10 +31,18 @@ function App() {
             <div class="info">
               <h1>Speak to me directly</h1>
               <p>Want to know more? Call me we now and share details.</p>
-              <button>500 500 500</button>
+              <button>
+                <table>
+                  <tr>
+                    <td>
+                      <a class="number" href="tel:+447821285093">Phone: +44 7821 285093</a>
+                    </td>
+                  </tr>
+                </table>
+              </button>
             </div>
             <div class="image">
-              <img src="https://i.postimg.cc/65QxYYzh/001234.png"/>
+              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
             </div>
           </div>
         </div>
