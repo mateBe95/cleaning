@@ -8,7 +8,7 @@ function Home() {
           <div class="container">
             <div class="info">
               <h1>Speak to me directly</h1>
-              <p>Want to know more? Call me we now and share details.</p>
+              <p>Want to know more? Call me now and share details.</p>
               <button>
                 <table>
                   <tr>
