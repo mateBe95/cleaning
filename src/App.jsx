@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Link, Outlet } from "react-router-dom";
 import './App.css'
 
 function App() {
@@ -11,39 +10,24 @@ function App() {
           <div class="container">
             <a href="#" class="logo">Happy clean services</a>
             <ul class="links">
-              <li>Home</li>
-              <li>About Me</li>
-              <li>Work</li>
+              <li><Link to="/cleaning/">Home</Link></li>
+              <li><Link to="/cleaning/about">About me</Link></li>
+              <li><Link to="/cleaning/work">Work</Link></li>
               <li>
                 <table>
-                <tr>
-                  <td>
-                    <a class="number" href="tel:+447821285093">Contact me</a>
-                  </td>
-                </tr>
-              </table>
+                  <tr>
+                    <td>
+                      <a class="number" href="tel:+447821285093">Contact me</a>
+                    </td>
+                  </tr>
+                </table>
               </li>
             </ul>
           </div>
         </header>
-        <div class="content">
-          <div class="container">
-            <div class="info">
-              <h1>Speak to me directly</h1>
-              <p>Want to know more? Call me we now and share details.</p>
-              <button>
-                <table>
-                  <tr>
-                    <td>
-                      <a class="number" href="tel:+447821285093">Phone: +44 7821 285093</a>
-                    </td>
-                  </tr>
-                </table>
-              </button>
-            </div>
-            <div class="image">
-              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
-            </div>
+        <div class="landing-page">
+          <div class="content">
+            <Outlet />
           </div>
         </div>
       </div>
