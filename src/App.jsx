@@ -12,7 +12,7 @@ function App() {
             <ul class="links">
               <li><Link to="/cleaning/">Home</Link></li>
               <li><Link to="/cleaning/about">About me</Link></li>
-              <li><Link to="/cleaning/work">Work</Link></li>
+              <li><Link to="/cleaning/work">Services</Link></li>
               <li>
                 <table>
                   <tr>
